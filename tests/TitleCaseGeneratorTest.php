@@ -31,6 +31,18 @@
                 $this->assertEquals("Star Trek", $result);
             }
 
+            function test_makeTitleCase_smallWord_exceptions()
+            {
+                //Arrange
+                $test_TitleCaseGenerator = new TitleCaseGenerator;
+                $input = "tale of two cities";
+
+                //Act
+                $result = $test_TitleCaseGenerator->makeTitleCase($input);
+
+                //Assert
+                $this->assertEquals("Tale of Two Cities", $result);
+            }
 
     }
 
