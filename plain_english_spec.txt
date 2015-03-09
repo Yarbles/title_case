@@ -1,0 +1,14 @@
+* 1) If the user's input is one word, it will capitalize that word.
+    ex: beowulf -> Beowulf
+
+* 2) If the user's input is multiple words, it will captitalize all words.
+    ex: star trek -> Star Trek
+
+3) In multiple word user input, small words will be lower case.
+    ex: tale of two cities -> Tale of Two Cities
+
+4) If small word is at the beginning of user input, it should be capitalized.
+    ex: the lion, the witch, and the wardrobe -> The Lion, the Witch, and the Wardrobe
+
+5) It words are both capitalized and lower case within each word, return the title with only the first letter capitalized
+    ex: sTaR WaRS -> Star Wars
